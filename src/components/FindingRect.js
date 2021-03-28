@@ -3,9 +3,9 @@ function FindingRect(props){
     return(
         <div className='findingRect' id='searchBox'>
             <div className='findingRectButtons'>
-                <button onClick={(e) => props.checker('sports-img', 'Waldo')}> Waldo</button>
-                <button onClick={() => {console.log()}}> b</button>
-                <button> c</button>
+                <button id='Waldo' onClick={(e) => props.checker(props.imageOpened, 'Waldo')}>Waldo</button>
+                <button id='Thief' onClick={(e) => props.checker(props.imageOpened, 'Thief')}>Thief</button>
+                <button id='SilverTrophy' onClick={(e) => props.checker(props.imageOpened, 'SilverTrophy')}>Silver Trophy</button>
             </div>
 
         </div>

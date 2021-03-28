@@ -32,3 +32,12 @@ time, mark, audio, video {
     position: absolute;
     display: none;
 }
+
+.circle{
+    border:5px solid red;
+    background: rgba(128, 128, 128, 0.651);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+}
