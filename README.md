@@ -1,0 +1,1 @@
+Where's Waldo game checking character positions with Firebase.
